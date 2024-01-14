@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, 'poppins';
+  box-sizing: border-box;
+}
+.signing-page{
+  background-image: url(netpic/netbackground.jpg);
+  height: 200vh;
+  position: relative;
+}
+.logo{
+  height: 80px;
+}
+.form{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 255px;
+  justify-content: center;
+  right: 300px;
+  height: 120vh;
+  width: 380px;
+  max-width: 400px;
+  background: linear-gradient(to top, rgb(0,0,0,0.8)50%,rgb(0,0,0,0.8)50%);
+  border-radius: 5px;
+}
+input{
+  display: block;
+}
+.sign-in{
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.type{
+  background-color: rgb(63, 62, 62);
+  border-radius: 5px;
+  border-style: none;
+  width: 255px;
+  height: 43px;
+  padding: 7px;
+}
+
+.sign-btn{
+  background-color: #e50914;;
+  border-style: none;
+  border-radius: 3px;
+  color: #ffffff;
+  margin-top: 10px;
+  height: 50px;
+}
+.reminder{
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: 400;
+  color: #777;
+}
+.nh{
+  text-decoration: underline;
+}
+.new{
+  font-size: 14px;
+  color: #777;
+}
+.sun{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 200;
+}
+.snew{
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+}
+.learn-more{
+  color: blue;
+  font-size: 11px;
+  font-weight: 200;
+}
+.ntn{
+  margin-top: 10px;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 10rem;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  background: linear-gradient(to top, rgb(0,0,0,0.8)50%,rgb(0,0,0,0.8)50%);
+}
+.col{
+  margin: 30px;
+}
+.col a{
+  color: #777;
+  text-decoration: none;
+  display: block;
+  font-size: 10px;
+  line-height: 30px;
+}
